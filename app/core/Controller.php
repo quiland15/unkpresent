@@ -12,5 +12,13 @@
 			require_once "../app/view/".$view.".php";
 			
 		}
+
+		// core logic model method
+		public function logic($model){
+			require_once "../app/model/".$model.".php";
+			$obj_model = new $model;
+			return $obj_model;
+		}
+
 	}
 ?>

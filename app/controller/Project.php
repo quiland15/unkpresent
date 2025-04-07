@@ -1,5 +1,5 @@
 <?php
-class Project{
+class project{
 	// Constructor
 	public function __construct(){
 

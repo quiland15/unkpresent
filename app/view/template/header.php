@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF=8">
 	<title><?php echo $data['title']; ?></title>
-	<link href="<?php echo APP_PATH; ?>/css/bootstrap.min.css" rel="stylesheet">
+	<link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -14,7 +13,7 @@
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	      <div class="navbar-nav">
-	        <a class="nav-link active" aria-current="page" href="<?php echo APP_PATH; ?>">Home</a>
+	        <a class="nav-link active" aria-current="page" href="<?php echo APP_PATH; ?>/home/">Home</a>
 	        <a class="nav-link" href="<?php echo APP_PATH; ?>/home/page/">Page</a>
 	        <a class="nav-link" href="<?php echo APP_PATH; ?>/project/">Project</a>
 	      </div>

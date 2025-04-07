@@ -9,7 +9,7 @@
 		// PHP Constructor
 		public function __construct(){
 			// Assign to default controller
-			$this->initDefaultController("Home", "index", "");
+			$this->initDefaultController("login", "index", "");
 
 			// Display structured information (type and value)
 			$url = $this->parseURL();

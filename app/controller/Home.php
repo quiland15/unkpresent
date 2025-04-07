@@ -1,5 +1,5 @@
 <?php
-class Home extends Controller{
+class home extends Controller{
 	// Constructor
 	public function __construct(){
 
@@ -13,7 +13,7 @@ class Home extends Controller{
 		$arr_data['title'] = "Home Page";
 		// Display page and send data
 		$this->display('template/header', $arr_data);
-		$this->display("home/index", $arr_data);
+		$this->display("home/default", $arr_data);
 		$this->display('template/footer');
 	}
 

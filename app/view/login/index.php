@@ -18,7 +18,7 @@
 <body oncontextmenu='return false' class='snippet-body'>
 <div class="container wrapper-center">
 	<div class="wrapper bg-white">
-		<div class="h2 text-center">Quiland Wenas</div>
+		<div class="h2 text-center">Universitas Klabat</div>
 		<form action="<?= APP_PATH;?>/login/process" method="post" class="pt-3">
 			<div class="form-group py-1 pb-2">
 				<div class="input-field">
@@ -53,7 +53,7 @@
                 }; 
             
             ?>
-			<button type="submit" class="btn btn-block text-center mt-3">Log in</button>
+			<button type="submit" class="btn btn-block text-center mt-3">Allen</button>
 		</form>
 	</div>
 </div>
